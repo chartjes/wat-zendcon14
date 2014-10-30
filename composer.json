@@ -1,0 +1,19 @@
+{
+  "require": {
+    "behat/behat": "dev-master@dev",
+    "behat/mink": "1.6.*",
+    "behat/mink-extension": "dev-master",
+    "behat/mink-goutte-driver": "dev-master",
+    "behat/mink-selenium2-driver": "dev-master",
+    "sensiolabs/behat-page-object-extension": "2.0.*@dev"
+  },
+  "config": {
+    "bin-dir": "bin/"
+  },
+  "autoload": {
+    "psr-0": {
+      "Grumpy": "src/",
+      "Page": "src/"
+    }
+  }
+}
